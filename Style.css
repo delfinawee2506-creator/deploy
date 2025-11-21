@@ -1,0 +1,180 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+ 
+.Logo {
+    width: 110px;
+   margin-left: 50px;
+    
+}
+header{
+       display: flex;
+    justify-content:space-between;
+    background-color: darkred;
+    color: goldenrod;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    gap:100px;
+    list-style-type: none;
+    font-size: x-large;
+    padding: 30px;
+}
+
+nav a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.Home {
+    background-image: url(img/background_img.jpg);
+    background-size: cover;
+}
+article h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(239, 182, 38);
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+article h2{
+   display: flex;
+    justify-content: center;
+    color: rgb(239, 182, 38);
+    font-size: 50px;
+    font-family:garamond;
+    padding-top: 40px;
+}
+article h3{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family:garamond;
+    padding-top: 350px;
+}
+
+.best_selling{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.Jasmine_green_tea img{
+width: 67%;
+
+}
+
+.Jasmine_green_tea {
+font-family: 'Times New Roman', Times, serif;
+color: #ffffff;
+font-size: xx-large;
+text-align: center;
+margin-left: auto;
+}
+
+.Puer_tea img{
+width: 85%;
+}
+
+.Puer_tea {
+font-family: 'Times New Roman', Times, serif;
+color: #ffffff;
+font-size: xx-large;
+text-align: center;
+justify-content: center;
+margin-right: auto;
+}
+
+.footer {
+    margin-left: auto;
+    display: flex;
+    background-color: darkred;
+    color: gold;
+    padding: 20px;
+    font-size:larger;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: gold;
+    font-size: x-large;
+   background-color: darkred;
+   padding: 10px;
+   text-decoration: none;
+}
+.icons img{
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.product img{
+    width: 450px; 
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    font-size: large;
+    padding-left: auto;
+    
+}
+
+.product p{
+    padding: 5px 10px 0px 0px;
+}
+
+.product h4{
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product h3{
+    font-size: larger;
+}
+
+.tea h1{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: lighter;
+}
+
+.tea p {
+    font-size:x-large ;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 10px;
+    
+}
+main{
+    background-color: antiquewhite;
+    
+}
+
+main{
+    padding-bottom: 40px;
+}
+
+.About_us{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(146, 133, 0);
+}
+.About_us h1{
+    font-size: 90px;
+}
+.About_us h2{
+    font-size: 30px;
+    padding: 15px;
+}
