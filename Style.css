@@ -197,5 +197,34 @@ main{
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+.harvest_tea img{
+    display: flex;
+    padding-top: 50px;
+    background-color: darkred;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+.harvest_tea{
+    display: flex;
+}
+
+.harvest_tea h1{
+    font-size: 50px;
+    display: flex;
+    color: white;
+    background-color: darkred;
+    padding-bottom: 10px;
     
+}
+.harvest_tea h2{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    background-color: darkred;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
