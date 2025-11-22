@@ -114,9 +114,13 @@ margin-right: auto;
 }
 .icons img{
     width: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    
+  
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    
 }
 
 .product img{
@@ -168,8 +172,9 @@ main{
 
 .About_us{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 170px;
     color: rgb(146, 133, 0);
+
 }
 .About_us h1{
     font-size: 90px;
@@ -177,4 +182,20 @@ main{
 .About_us h2{
     font-size: 30px;
     padding: 15px;
+}
+
+.founding_story h1{
+    font-size: 50px;
+    padding-top: 300px;
+    color: rgb(146, 133, 0);
+    padding-left: 50px;
+
+}
+.founding_story h2{
+    font-size: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    
 }
