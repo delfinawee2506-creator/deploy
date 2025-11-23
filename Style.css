@@ -162,7 +162,7 @@ margin-right: auto;
     
 }
 main{
-    background-color: antiquewhite;
+    background-color: wheat;
     
 }
 
@@ -172,59 +172,116 @@ main{
 
 .About_us{
     text-align: center;
-    padding-top: 170px;
-    color: rgb(146, 133, 0);
+    padding-top: 70px;
+    color: rgb(162, 121, 18);
 
 }
 .About_us h1{
-    font-size: 90px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    font-weight: lighter;
+    color: black;
+    padding-left: 10px;
 }
 .About_us h2{
+    font-size:large ;
     font-size: 30px;
-    padding: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    padding-left: 10px;
 }
 
+.founding_story {
+    font-size: 50px;
+    padding-top: 150px;
+    color: rgb(162, 121, 18);
+}
 .founding_story h1{
     font-size: 50px;
-    padding-top: 300px;
-    color: rgb(146, 133, 0);
-    padding-left: 50px;
-
+    color: rgb(162, 121, 18);
 }
 .founding_story h2{
-    font-size: 30px;
+    font-size: 23px;
+    color: black;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.text_founding h2{
+    font-size: 23px;
     color: black;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
-    margin-bottom: 100px;
 }
 
 .harvest_tea img{
     display: flex;
-    padding-top: 50px;
     background-color: darkred;
-    padding-left: 100px;
-    padding-bottom: 80px;
-}
-.harvest_tea{
-    display: flex;
+    width: 900px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    
 }
 
-.harvest_tea h1{
-    font-size: 50px;
+.harvest_tea{
+    margin-top: 100px;
     display: flex;
-    color: white;
     background-color: darkred;
-    padding-bottom: 10px;
+}
+.harvest_tea h1{
+    font-size: 40px;
+    text-align: center;
+    color: goldenrod;
+    background-color: darkred;
+    
     
 }
 .harvest_tea h2{
-    display: flex;
-    font-size: 30px;
-    color: white;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 23px;
+    color: rgb(234, 234, 224);
     background-color: darkred;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    
+}
+.text {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.collection img{
+    display: flex;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    
+}
+
+.collection{
+    margin-top: 100px;
+    display: flex;
+}
+.collection h1{
+    color: rgb(162, 121, 18);
+    font-size: 40px;
+    text-align: left;
+}
+.collection h2{
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 23px;
+}
+.collection_text{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
