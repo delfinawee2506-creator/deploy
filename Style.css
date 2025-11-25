@@ -6,13 +6,17 @@
  
 
 .Logo {
-    width: 110px;
-   margin-left: 50px;
-    
+    width: auto;
+   margin-left: auto;
+    margin-left: auto;
+    max-width: 100px;
 }
 header{
     display: flex;
     justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1800px;
     background-color: darkred;
     color: goldenrod;
     align-items: center;
@@ -20,20 +24,31 @@ header{
 }
 nav ul{
     display: flex;
-    gap:100px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: auto;
     list-style-type: none;
-    font-size: x-large;
+    font-size: auto;
     padding-right: 20px;
 }
 
 nav a{
+    text-align: center;
+    font-size: larger;
+    margin-right: auto;
+    margin-left: auto;
     color: goldenrod;
     text-decoration: none;
+    display: flex;  
+    margin-left: 20px;
+    
 }
 
 .Home {
     background-image: url(img/background_img.jpg);
     background-size: cover;
+    
 }
 article h1{
     display: flex;
@@ -50,10 +65,13 @@ article h1{
 article h2{
    display: flex;
     justify-content: center;
+    text-align: center;
     color: rgb(239, 182, 38);
     font-size: 50px;
+
     font-family:garamond;
     padding-top: 40px;
+    margin-right: auto;
 }
 article h3{
     display: flex;
